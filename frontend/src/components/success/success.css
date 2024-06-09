@@ -1,0 +1,107 @@
+.success {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #f1f1f1;
+}
+.success-container {
+    border-radius: 0.3rem;
+    min-height: 100vh;
+    padding: 1rem;
+    background: var(--color-bg);
+}
+.success-flex {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.suc-left {
+    width: 100%;
+}
+.suc-right {
+    padding: 1rem;
+}
+.suc-left img {
+    height: 100%;
+    width: 100%;
+}
+.suc-456 img {
+    width: 8rem;
+    border-radius: 0.3rem;
+}
+.suc-ttl-1 {
+    padding: 1rem 0 0 0;
+    color: var(--color-primary);
+}
+.elite-suc h2 {
+    padding: 0.7rem 0;
+}
+.lor-details span {
+    font-weight: 600;
+}
+.suc-details {
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+.suc-cat {
+    font-size: 0.8rem;
+    color: var(--color-light-text);
+}
+.con-332 {width: 100%;}
+.suc-456 {
+    display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+    width: 100%;
+}
+.ext-khan {
+    width: 100%;
+    padding: 1rem 0;
+}
+.ext-khan p{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    width: 100%;
+}
+.khan-who-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+.khan-items {
+    width: 100%;
+    padding: 1rem 0;
+}
+.khan-items p {
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+.bull-khan {
+    text-align: right;
+    width: 100%;
+    display: block;
+    padding: 1rem 0;
+    color: var(--color-primary);
+}
+.b-ttl2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+@media screen and (max-width:1024px) {
+    .suc-left {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+

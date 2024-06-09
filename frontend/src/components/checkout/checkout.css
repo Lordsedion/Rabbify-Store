@@ -1,0 +1,119 @@
+.checkout {
+    background: #f5f4f4;
+    padding: 2rem 0;
+}
+.ch-zzla {
+    padding: 1rem 0;
+}
+.checkout-container {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    padding: 1rem 1rem;
+}
+.check-lr1 img {
+    width: 8rem;
+    height: 8rem;
+    aspect-ratio: 1/1;
+    border-radius: 0.3rem;
+}
+.checkout-punks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.check-lr1 {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #eeecec;
+    margin: 0.3rem 0;
+}
+.check-lr {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.check-lr2 {
+    width: 70%;
+    padding: 0 1rem;
+}
+.check-lr2 h4 {
+    padding: 0.5rem 0;
+}
+.ch-detail p{
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0.2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.check-lr2 button {
+    width: 100%;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.check-lr2 button:hover {
+    background: var(--color-primary-dark);
+}
+.check-t-1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.check-t-1 p {
+    font-weight: 600;
+}
+.ch-category {
+    color: var(--color-light-text);
+    font-size: 0.9rem;
+}
+
+.check-lr1-r2 {
+    width: 100%;
+}
+.ch-category {
+    color: var(--color-light-text);
+    padding: 0.1rem 0;
+}
+.ch-price {
+    padding: 0.5rem 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width:990px) {
+    .check-lr {
+        flex-direction: column;
+    }
+    .check-lr2 {
+        width: 50%;
+        margin: 1rem auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .check-lr2 {
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .checkout-container {
+        padding: 0.5rem;
+    }
+    .check-lr1 {
+        padding: 0.1rem 0;
+    }
+    .check-lr2 {
+        padding: 0rem;
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .good-child {
+        top: 0;
+        transform: translateY(0);
+    }
+}

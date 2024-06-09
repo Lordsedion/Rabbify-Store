@@ -1,0 +1,12 @@
+footer {
+    padding: 1rem 0;
+}
+
+footer h2 {
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--color-primary);
+}
+footer p {
+    text-align: center;
+}

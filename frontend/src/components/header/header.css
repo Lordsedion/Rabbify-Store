@@ -1,0 +1,65 @@
+header {
+    background: var(--color-bg);
+}
+header .container {
+    background: #f1f1f1;
+}
+.header-container {
+    width: 70%;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+.header-text span {
+    color: var(--color-primary);
+}
+.header-text {
+    text-align: center;
+}
+.intro {
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem auto;
+    color: var(--color-text-dark);
+    display: flex;
+    justify-content: center;
+}
+.button-sect {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+button {
+    padding: 1rem ;
+}
+.l1-button {
+    cursor: pointer;
+    color: var(--color-text-dark);
+    background-color: var(--color-bg);
+    border: 1px solid #cccccc8c;
+    font-size: 1rem;
+}
+.cp-button {
+    cursor: pointer;
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #cccccc8c;
+}
+.l1-button:hover {
+    border: 1px solid #ccc;
+}
+.cp-button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+
+@media screen and (max-width: 900px) {
+    .header-container {
+        width: 90%;
+    }
+}

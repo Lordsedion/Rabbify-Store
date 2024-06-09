@@ -1,0 +1,258 @@
+.product {
+  background: #f1f1f1;
+  padding: 1rem 0;
+}
+.product .container {
+  background: var(--color-bg);
+  border-radius: 0.3rem;
+}
+.product-container {
+    background: var(--color-bg);
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    border-radius: 0.3rem;
+}
+.product-card {
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.product-left {
+    width: 90%;
+}
+.product-right {
+    width: 80%;
+    overflow: hidden;
+}
+.product-right img {
+    /* margin: 0 10%; */
+    width: 100%;
+    border-radius: 0.3rem;
+    aspect-ratio: 1/1;
+    /* object-fit: cover; */
+}
+.p-details {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    align-items: center;
+}
+.p-elig-dv {
+    padding: 1rem 0;
+}
+.product-info {
+    padding: 1rem 0;
+    text-align: justify;
+}
+.p-title {
+    color: var(--color-text-dark);
+}
+.dir-1 {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.p-heart {
+  color: red;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.p-left-1 {
+  padding: 0.5rem 0;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.p-left-1 span {
+  color: var(--color-primary);
+  font-size: 1.3rem;
+}
+.p-rating span {
+  color: gold;
+  font-size: 1.2rem;
+}
+.p-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.p-rating a{
+  color: var(--color-primary);
+}
+.p-add-to-cart {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;  
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+}
+.p-add-to-cart span {
+  font-size: 1.5rem;
+}
+.p-price-1 {
+    color: var(--color-text-dark);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.p-price-2 {
+    color: var(--color-light-text);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+.p-add-to-cart:hover {
+    background: var(--color-primary-dark);
+}
+.p-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .good-child {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+  }
+  .p-1-33-1 {
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-text-dark);
+    font-weight: 600;
+    justify-content: center;
+  }
+  .p-1-33-1 span {
+    font-size: 1.5rem;
+  }
+.product-spec {
+  padding: 1rem;
+}
+.pd-1 span {
+  font-weight: 700;
+}
+.spec-more {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.spec-more > div {
+  border: 1px solid #ccc;
+  /* padding: 1rem; */
+}
+.spec-more > div ul {
+  padding: 1rem 2rem;
+}
+.p-spec-more-left ul {
+  padding: 1rem;
+}
+.p-spec-more-right ul {
+  padding: 1rem;
+}
+.p-spec-more-left ul li, .p-spec-more-right ul li{
+  padding: 0.5rem 0;
+  list-style-type:disc;
+}
+.drp1 {
+  padding: 0 1rem;
+}
+.drp1 p {
+  padding: 1rem 0;
+}
+.p-spec-ml-tt {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+
+  /* Hide the browser's default checkbox */
+  .p-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .p-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .p-container input:checked ~ .checkmark {
+    background-color: var(--color-primary);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .p-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .p-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .product-card {
+        flex-direction: column-reverse;
+    }
+    .product-container {width: 100%;
+    box-shadow: none;}
+    .product-left {
+        width: 100%;
+    }
+    .product-right {
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width:500px) {
+  .spec-more {
+    grid-template-columns: 1fr;
+  }
+}
